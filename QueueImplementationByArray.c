@@ -33,8 +33,8 @@ int main()
     printf("\n1. Enqueue\n2. Dequeue\n3. Display\n4. Peek\n 5. Exit\n");
     printf("Enter your choice: ");
     scanf("%d", &choice);
-    while(1)
-    {
+    
+
         if(choice == 1)
         {
             Enqueue();
@@ -53,14 +53,14 @@ int main()
         }
         else if(choice == 5)
         {
-            break;
+            // break;
         }
         else
         {
             printf("\nInvalid choice\n");
         }
 
-    }
+    
 
     return 0;
 }
